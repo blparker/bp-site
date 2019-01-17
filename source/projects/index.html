@@ -1,0 +1,18 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+<p>I tend to always have a project or 3 underway at a time. Here is a list of things I'm either
+working on currently or have worked on in the past.</p>
+
+<ul>
+  {% for project in site.projects %}
+  <li>
+    <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+<div class="clearfix"></div>

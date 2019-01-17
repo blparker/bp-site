@@ -1,0 +1,61 @@
+# Build settings
+permalink: /blog/:year/:title/
+markdown: kramdown
+highlighter: pygments
+plugins: [jekyll-paginate-v2]
+
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: "/page/:num/"
+
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+# SEO settings
+title: Bryan Parker
+description: "Bryan Parker, an engineer living in Chicago."
+keywords: "Bryan Parker, developer, Chicago engineer"
+url: http://bryan.blog
+baseurl: ""
+
+google_analytics: UA-130522348-1
+repo: https://github.com/blparker/blparker.github.io
+#disqus_shortname: "nandothemes"
+#disqus_site_shortname: "nandothemes"
+
+# Author settings
+author:
+  name: Bryan
+  job: Engineer
+  bio: "An eternally curious engineer interested in AI, startups, sports, food, and beer. Sometimes together."
+  city: Chicago
+  thumb: /images/bryan.jpg
+  email: bryan@bryan.blog
+  url: http://bryan.blog
+  github: https://github.com/blparker
+  twitter: https://twitter.com/bryanlparker
+  facebook: https://facebook.com/
+  linkedin: https://www.linkedin.com/in/blparker/
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  - slug: projects
+    title: Projects
+  - slug: blog
+    title: Blog
+
+exclude: ['config.rb', 'src', 'Gemfile', 'Gemfile.lock', 'package.json', 'README.md', 'Rakefile']
+include: ['_projects', '_project_data', '_project_data/lin-alg']
+
+collections:
+  - projects
+  - project_data
+
