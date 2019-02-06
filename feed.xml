@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bryan Parker</title>
+    <description>Bryan Parker, an engineer living in Chicago.</description>
+    <link>http://bryan.blog/</link>
+    <atom:link href="http://bryan.blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 06 Feb 2019 13:26:00 -0600</pubDate>
+    <lastBuildDate>Wed, 06 Feb 2019 13:26:00 -0600</lastBuildDate>
+    <generator>Jekyll v3.6.3</generator>
+    
+      <item>
+        <title>Hello, world</title>
+        <description>&lt;h1&gt;Random musings.&lt;/h1&gt;
+
+&lt;p&gt;
+Hello, world. I intend to use this site/blog to document the types of things I'm working on and in general, random musings about things
+that are of interest to me. If you're interested, you can find more &lt;a href=&quot;/about&quot; title=&quot;About&quot;&gt;about me&lt;/a&gt;,
+and see a list of &lt;a href=&quot;/projects&quot; title=&quot;Projects&quot;&gt;projects&lt;/a&gt; I've worked on.
+&lt;/p&gt;
+
+&lt;!--
+&lt;h2&gt;Header Level 2&lt;/h2&gt;
+
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;header&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+--&gt;
+</description>
+        <pubDate>Mon, 05 Nov 2018 06:38:00 -0600</pubDate>
+        <link>http://bryan.blog/blog/2018/hello-world/</link>
+        <guid isPermaLink="true">http://bryan.blog/blog/2018/hello-world/</guid>
+        
+        
+        <category>hello</category>
+        
+      </item>
+    
+  </channel>
+</rss>

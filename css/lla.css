@@ -1,0 +1,28 @@
+body {
+  /*font-family: "Montserrat", 'Helvetica';*/
+  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.58;
+  font-size: 21px;
+  letter-spacing: -.003em;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: #444;
+}
+
+h1 { font-size: 1.7em; }
+h2 { font-size: 1.3em; }
+h3 { font-size: 1.1em; }
+h4 { font-size: 1em; }
+h5 { font-size: 0.8em; }
+h6 { font-size: 1.7em; }
+
+figure {
+  display: block;
+  text-align: center;
+  margin: 20px;
+}
+
