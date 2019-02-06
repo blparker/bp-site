@@ -13,7 +13,7 @@ working on currently or have worked on in the past.</p>
     <div>
       <h4>
         {% if project.redirect != null %}
-          <a href="{{ project.redirect }}">{{ project.title }}</a>
+          <a href="{{ project.redirect | prepend: '' }}">{{ project.title }}</a>
         {% else %}
           <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
         {% endif %}
