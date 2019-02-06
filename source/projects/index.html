@@ -7,10 +7,19 @@ permalink: /projects/
 <p>I tend to always have a project or 3 underway at a time. Here is a list of things I'm either
 working on currently or have worked on in the past.</p>
 
-<ul>
+<ul class="projects-list">
   {% for project in site.projects %}
   <li>
-    <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+    <div>
+      <h4>
+        {% if project.redirect != null %}
+          <a href="{{ project.redirect }}">{{ project.title }}</a>
+        {% else %}
+          <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+        {% endif %}
+      </h4>
+      <p>{{ project.description }}</p>
+    </div>
   </li>
   {% endfor %}
 </ul>

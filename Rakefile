@@ -6,8 +6,8 @@ require "jekyll"
 require "bourbon"
 
 # Change your GitHub reponame
-GITHUB_REPONAME = "blparker/blparker.github.io"
-GITHUB_REPO_BRANCH = "master"
+GITHUB_REPONAME = "blparker/bp-site"
+GITHUB_REPO_BRANCH = "gh-pages"
 
 SOURCE = "source/"
 DEST = "_site"

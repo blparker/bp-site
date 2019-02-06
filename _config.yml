@@ -53,9 +53,10 @@ navbar:
     title: Blog
 
 exclude: ['config.rb', 'src', 'Gemfile', 'Gemfile.lock', 'package.json', 'README.md', 'Rakefile']
-include: ['_projects', '_project_data', '_project_data/lin-alg']
+include: ['_projects']
+#include: ['_projects', '_project_data', '_project_data/lin-alg']
 
 collections:
   - projects
-  - project_data
+    #- project_data
 
